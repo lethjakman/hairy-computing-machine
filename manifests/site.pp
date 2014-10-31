@@ -4,9 +4,10 @@ class { 'apt':
 }
 
 # Network Tools
-package { 'nmap': }
-package { 'wireshark': }
+package { 'cryptcat': }
 package { 'ettercap-text-only': }
-package { 'w3af-console': }
 package { 'netcat': }
 package { 'cryptcat': }
+package { 'nmap': }
+package { 'w3af-console': }
+package { 'wireshark': }
