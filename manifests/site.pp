@@ -7,7 +7,13 @@ class { 'apt':
 package { 'cryptcat': }
 package { 'ettercap-text-only': }
 package { 'netcat': }
-package { 'cryptcat': }
 package { 'nmap': }
 package { 'w3af-console': }
 package { 'wireshark': }
+
+# Programming Languages
+package { 'ghc': }
+
+# Programming Tools
+package { 'git': }
+package { 'zsh': }
